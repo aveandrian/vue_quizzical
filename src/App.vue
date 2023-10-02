@@ -102,8 +102,8 @@ function checkAnswers(){
        <p class='game-description'>Conquer your cluelessness with the ingeneous quiz that helps you learn about the things.</p>
        <button @click="startGame">Play</button>
     </main>
-    <img src='src/assets/blobs_blue.svg' class='blob-blue'/>
-    <img src='src/assets/blobs_yellow.svg' class='blob-yellow'/>
+    <img src='@/assets/blobs_blue.svg' class='blob-blue'/>
+    <img src='@/assets/blobs_yellow.svg' class='blob-yellow'/>
 </template>
 
 <style>
